@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(205, 247, 163);
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    overflow: hidden;
+}
+/* Start Auto Count Effect */
+.container{
+    margin: 0 20px;
+    text-align: center;
+}
+i{
+    font-size: 40px;
+    color: rgb(39, 73, 5);
+}
+.count{
+    font-size: 60px;
+}
+/* End Auto Count Effect */

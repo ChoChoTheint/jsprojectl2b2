@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: chocolate;
+    color: rgb(43, 4, 70);
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0;
+    overflow: hidden;
+}
+.container{
+    font-size: 30px;
+}
+.controls{
+    background-color: rgba(0,0,0,0.2);
+    padding: 5px 10px;
+    border: 1px solid saddlebrown ;
+    border-radius: 2px;
+
+    position: absolute;
+    bottom: 40px;
+}
